@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="24.css">
+    <img src="background.jpg" alt="background">   
+    </head>
+<body>
+    <h1 >Text-to-Speech</h1>
+    <div id="TextArea" ><textarea style="font-family: Arial, Helvetica, sans-serif;"  cols="30" rows="10"></textarea><br></div>
+    <input type="file"><br>
+    <select name="" id="sel"></select>
+    <div id="Buttons" >
+        <button id="play" onclick="speakInputText()">Play</button>
+        <button id="speed">Speed</button>
+        <button id="stop" onclick="stopSpeech()">Stop</button>
+        <select name="" id="for_speed" onchange="changeVoiceSpeed(this.value)">
+        <option value="0.5">0.5</option>
+        <option value="1">1</option>
+        <option value="1.25">1.25</option>
+        <option value="1.5">1.5</option>
+        </select>
+       
+    </div>
+    <script src="24.js"></script>
+</body>
+</html>

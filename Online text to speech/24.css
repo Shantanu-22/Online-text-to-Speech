@@ -1,0 +1,63 @@
+img {
+    position:absolute;
+    top: 0cm;
+    opacity: 50%;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    left: 15.5cm;
+    position: absolute;
+    top: 0cm;
+}
+#TextArea {
+    position: absolute;
+    top: 2cm;
+    left: 30%;
+}
+textarea {
+    width:15cm;
+    height: 8cm;
+    border-radius: 0.2cm;
+    background-color: white;
+    opacity: 80%;
+    color: black;
+}
+input {
+    position: absolute;
+    top: 10.5cm;
+    left: 30%
+}
+#Buttons {
+    width: 15cm;
+    height: 3cm;
+    position: absolute;
+    top: 12cm;
+    left: 39%;
+
+}
+#play {
+    position: absolute;
+    left: 0.5cm;
+    padding: 1%;
+}
+#speed {
+    position: absolute;
+    left: 2cm;
+    padding: 1%;
+}
+#stop {
+    position: absolute;
+    left: 4cm;
+    padding: 1%;
+}
+#for_speed {
+    position: absolute;
+    left: 5.6cm;
+    padding: 1%;
+}
+#sel {
+    position: absolute;
+    left: 45%;
+    top: 10.5cm;
+}
